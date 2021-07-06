@@ -2,37 +2,57 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
-    font-size: 50px;
-}
 h2{
     font-size: 40px;
 }
-.orange-color{
-    color: orange;
-}
-.flexible-container{
+
+
+.flex-container{
     display: flex;
     margin-bottom: 200 px;
 }
 .first-half{
     width: 50%;
-    padding-left: 3%;
-     
-    
-    
+    padding-left: 3%;  
 }
-.half-width img{
-    width: 80%;
+.second-half{
+    width: 50%;
+    padding-left: 3%;
 }
 
+
+.first-section {
+    padding-top: 50px;
+}
+
+.right-image1{
+padding-top: 50px;
+text-align: center;
+}
 footer p{
     text-align: center;
 }
 
+.crimson-color {
+    color: crimson;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
 
-
-
+.left-image2 img{
+    width: 50%;
+    text-align: right;
+}
+.second-half{
+    padding-top: 40px;
+}
+.second-section{
+    padding-right: 50px;
+}
 
 
 
