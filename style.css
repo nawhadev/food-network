@@ -9,20 +9,28 @@ h2{
 
 .flex-container{
     display: flex;
-    margin-bottom: 200 px;
+    margin-bottom: 100 px;
 }
 .first-half{
     width: 50%;
-    padding-left: 3%;  
+    padding-left: 3%; 
+     
 }
 .second-half{
     width: 50%;
     padding-left: 3%;
+
 }
 
+.first-half p {
+
+    width:60%;
+    padding-bottom: 20px;
+}
 
 .first-section {
     padding-top: 50px;
+    margin-bottom: 60px;
 }
 
 .right-image1{
@@ -38,21 +46,57 @@ footer p{
 }
 .link-button{
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient(to right, #FC984C, #FD482D);
     padding: 10px 40px;
     border-radius: 20px;
+    height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
 }
 
 .left-image2 img{
-    width: 50%;
+    width: auto;
+    height: 450px;
     text-align: right;
 }
-.second-half{
-    padding-top: 40px;
+.second-half {
+    padding-top: 120px;
+}
+
+.second-half p {
+    width: 60%;
+    padding-bottom: 20px;
 }
 .second-section{
-    padding-right: 50px;
+    padding-right: 40px;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-
-
+.third-half{
+    text-align: center;
+}
+.third-box{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px  gray;
+    margin-bottom: 50px;
+}
+footer{
+    height: 100px;
+    background:black;
+    color: white;
+    padding-top: 20px;
+    
+}
+.orange-color{
+    color: orange;
+}
+img{
+    border-radius: 10px;
+}
